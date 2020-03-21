@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25458e47-9a17-4cc9-b193-7d6fc037ba2b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1214.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1050.py" beforeDir="false" afterPath="$PROJECT_DIR$/1050.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +35,9 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Python.1050">
+  <component name="RunManager" selected="Python.1214">
     <configuration name="1050" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -51,6 +51,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1050.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1214" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1214.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1214" />
         <item itemvalue="Python.1050" />
         <item itemvalue="Python.hola" />
         <item itemvalue="Python.MEGA" />
@@ -168,38 +190,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="Teste commit pycharm" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="85" y="225" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584746915840">
+    <state x="85" y="225" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584801744952">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
-    <state x="85" y="225" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584746915840" />
+    <state x="85" y="225" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584801744952" />
     <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1584748836045">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
     <state x="333" y="0" key="CommitChangelistDialog2/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584748836045" />
-    <state width="489" height="175" key="GridCell.Tab.0.bottom" timestamp="1584796571566">
+    <state width="998" height="298" key="GridCell.Tab.0.bottom" timestamp="1584821114336">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
-    <state width="489" height="175" key="GridCell.Tab.0.bottom/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584796571566" />
-    <state width="637" height="175" key="GridCell.Tab.0.bottom/0.0.1326.706@0.0.1326.706" timestamp="1584793230361" />
-    <state width="489" height="175" key="GridCell.Tab.0.center" timestamp="1584796571565">
+    <state width="488" height="298" key="GridCell.Tab.0.bottom/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584813235335" />
+    <state width="998" height="298" key="GridCell.Tab.0.bottom/0.0.1326.706@0.0.1326.706" timestamp="1584821114336" />
+    <state width="998" height="298" key="GridCell.Tab.0.center" timestamp="1584821114336">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
-    <state width="489" height="175" key="GridCell.Tab.0.center/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584796571565" />
-    <state width="637" height="175" key="GridCell.Tab.0.center/0.0.1326.706@0.0.1326.706" timestamp="1584793230361" />
-    <state width="489" height="175" key="GridCell.Tab.0.left" timestamp="1584796571565">
+    <state width="488" height="298" key="GridCell.Tab.0.center/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584813235335" />
+    <state width="998" height="298" key="GridCell.Tab.0.center/0.0.1326.706@0.0.1326.706" timestamp="1584821114336" />
+    <state width="998" height="298" key="GridCell.Tab.0.left" timestamp="1584821114336">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
-    <state width="489" height="175" key="GridCell.Tab.0.left/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584796571565" />
-    <state width="637" height="175" key="GridCell.Tab.0.left/0.0.1326.706@0.0.1326.706" timestamp="1584793230361" />
-    <state width="489" height="175" key="GridCell.Tab.0.right" timestamp="1584796571565">
+    <state width="488" height="298" key="GridCell.Tab.0.left/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584813235334" />
+    <state width="998" height="298" key="GridCell.Tab.0.left/0.0.1326.706@0.0.1326.706" timestamp="1584821114336" />
+    <state width="998" height="298" key="GridCell.Tab.0.right" timestamp="1584821114336">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
-    <state width="489" height="175" key="GridCell.Tab.0.right/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584796571565" />
-    <state width="637" height="175" key="GridCell.Tab.0.right/0.0.1326.706@0.0.1326.706" timestamp="1584793230361" />
-    <state x="74" y="0" key="SettingsEditor" timestamp="1584747818761">
+    <state width="488" height="298" key="GridCell.Tab.0.right/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584813235335" />
+    <state width="998" height="298" key="GridCell.Tab.0.right/0.0.1326.706@0.0.1326.706" timestamp="1584821114336" />
+    <state x="74" y="0" key="SettingsEditor" timestamp="1584798141878">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
-    <state x="74" y="0" key="SettingsEditor/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584747818761" />
+    <state x="74" y="0" key="SettingsEditor/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584798141878" />
     <state x="256" y="89" key="Vcs.Push.Dialog.v2" timestamp="1584748887704">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
