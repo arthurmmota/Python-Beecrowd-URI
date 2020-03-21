@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25458e47-9a17-4cc9-b193-7d6fc037ba2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1050.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_1050.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1050.py" beforeDir="false" afterPath="$PROJECT_DIR$/1050.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.hola">
+  <component name="RunManager" selected="Python.1050">
     <configuration name="1050" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,8 +124,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hola" />
         <item itemvalue="Python.1050" />
+        <item itemvalue="Python.hola" />
         <item itemvalue="Python.MEGA" />
         <item itemvalue="Python.arquivo" />
       </list>
@@ -144,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1544479587073</updated>
     </task>
+    <task id="LOCAL-00001" summary="Teste commit pycharm">
+      <created>1584748837299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584748837299</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,30 +163,46 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Teste commit pycharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste commit pycharm" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="85" y="225" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584746915840">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
     <state x="85" y="225" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584746915840" />
-    <state width="490" height="173" key="GridCell.Tab.0.bottom" timestamp="1584748769996">
+    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1584748836045">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
-    <state width="490" height="173" key="GridCell.Tab.0.bottom/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584748769996" />
-    <state width="490" height="173" key="GridCell.Tab.0.center" timestamp="1584748769996">
+    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584748836045" />
+    <state width="489" height="175" key="GridCell.Tab.0.bottom" timestamp="1584796571566">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
-    <state width="490" height="173" key="GridCell.Tab.0.center/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584748769996" />
-    <state width="490" height="173" key="GridCell.Tab.0.left" timestamp="1584748769996">
+    <state width="489" height="175" key="GridCell.Tab.0.bottom/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584796571566" />
+    <state width="637" height="175" key="GridCell.Tab.0.bottom/0.0.1326.706@0.0.1326.706" timestamp="1584793230361" />
+    <state width="489" height="175" key="GridCell.Tab.0.center" timestamp="1584796571565">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
-    <state width="490" height="173" key="GridCell.Tab.0.left/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584748769996" />
-    <state width="490" height="173" key="GridCell.Tab.0.right" timestamp="1584748769996">
+    <state width="489" height="175" key="GridCell.Tab.0.center/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584796571565" />
+    <state width="637" height="175" key="GridCell.Tab.0.center/0.0.1326.706@0.0.1326.706" timestamp="1584793230361" />
+    <state width="489" height="175" key="GridCell.Tab.0.left" timestamp="1584796571565">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
-    <state width="490" height="173" key="GridCell.Tab.0.right/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584748769996" />
+    <state width="489" height="175" key="GridCell.Tab.0.left/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584796571565" />
+    <state width="637" height="175" key="GridCell.Tab.0.left/0.0.1326.706@0.0.1326.706" timestamp="1584793230361" />
+    <state width="489" height="175" key="GridCell.Tab.0.right" timestamp="1584796571565">
+      <screen x="0" y="0" width="1326" height="706" />
+    </state>
+    <state width="489" height="175" key="GridCell.Tab.0.right/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584796571565" />
+    <state width="637" height="175" key="GridCell.Tab.0.right/0.0.1326.706@0.0.1326.706" timestamp="1584793230361" />
     <state x="74" y="0" key="SettingsEditor" timestamp="1584747818761">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
     <state x="74" y="0" key="SettingsEditor/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584747818761" />
+    <state x="256" y="89" key="Vcs.Push.Dialog.v2" timestamp="1584748887704">
+      <screen x="0" y="0" width="1326" height="706" />
+    </state>
+    <state x="256" y="89" key="Vcs.Push.Dialog.v2/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584748887704" />
   </component>
 </project>
