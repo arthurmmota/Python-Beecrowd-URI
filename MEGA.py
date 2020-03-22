@@ -35,9 +35,11 @@ def call_numbers_pre( mega_Numeros):
 	print(sorted(mega_Numeros))
 '''teclado = sys.stdin.readline()'''
 
-teclado = input()
+
 
 print("Digite 1 para 6 aletorios /n 2 para 6-x digitados")
+
+teclado = input()
 if int(teclado) == 1:
 	call_numbers()
 elif int(teclado) == 2:
