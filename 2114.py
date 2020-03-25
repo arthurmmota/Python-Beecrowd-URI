@@ -10,6 +10,8 @@ import cgi
 import socket
 
 # Poker 2114
+from typing import List, Any, Union
+
 '''
 jogo #  
      1 - Carta mais alta: qualquer mão que não se enquadre em nenhum dos demais tipos. No desempate, as cinco cartas são comparadas uma a uma, da mais valiosa para a menos, até uma mão apresentar uma carta com valor maior que o da outra.
@@ -54,6 +56,28 @@ Jc 9p
 Kc 2o 2c Ac
 t
 '''
+sequencia = (["2", 2],["3", 3],["4", 4],["5", 5],["6", 6],["7", 7],["8", 8],["9", 9],["T", 10],["J", 11],["Q", 12],["K", 13],["A", 100])
+
+
+
+def verificaMaiorCarta(carta1, carta2):
+    valorCarta1 = 0
+    valorCarta2 = 0
+    for x in range(0, len(sequencia)):
+        if sequencia[x][0] == carta1:
+            valorCarta1 = sequencia[x][1]
+    for x in range(0, len(sequencia)):
+        if sequencia[x][0] == carta2:
+            valorCarta2 = sequencia[x][1]
+    if valorCarta1 == valorCarta2:
+        return 0
+    elif valorCarta1 > valorCarta2:
+        return carta1
+    else:
+        return carta2
+
+
+
 def verificaFlush():
     return
 
@@ -66,18 +90,6 @@ def verificaStraightFLush():
     return
 
 
-def verificaFULL():
-    return
-
-
-def verifica2par():
-    return
-
-
-def verificaPar():
-    return
-
-
 def verificaIgauis(player, mesa):
     iguais = 1
     iguaisC1 = 1
@@ -86,13 +98,15 @@ def verificaIgauis(player, mesa):
     carta1 = list(player[0])
     carta2 = list(player[1])
 
-    #Par na mão
+    #print("maior carta",verificaMaiorCarta(carta1[0],carta2[0]))
+
+    # Par na mão
     if carta1[0] == carta2[0]:
         iguais += 1
-        #compara par com a mesa
+        # compara par com a mesa
         for mc in range(0, len(mesa)):
             cartaM = list(mesa[mc])
-            if carta1[0]  == cartaM[0]:
+            if carta1[0] == cartaM[0]:
                 iguais += 1
         # Par
         if iguais == 2:
@@ -100,50 +114,54 @@ def verificaIgauis(player, mesa):
         # Trinca
         elif iguais == 3:
             return 4
-        #Quadra
+        # Quadra
         elif iguais == 4:
             return 8
-        #Sem cartas iguais
+        # Sem cartas iguais
         else:
             return 0
 
-
+    #Sem par na mão
     else:
-        #compara primeira carta com a mesa
+        # compara primeira carta com a mesa
         for mc in range(0, len(mesa)):
             cartaM = list(mesa[mc])
             if carta1[0] == cartaM[0]:
                 iguaisC1 += 1
-        #compara segunda carta com a mesa
+        # compara segunda carta com a mesa
         for mc in range(0, len(mesa)):
             cartaM = list(mesa[mc])
             if carta1[1] == cartaM[0]:
                 iguaisC2 += 1
-        #Full house ou 02 pares
+        # Full house, 02 pares 02 trincas
         if iguaisC1 > 1 and iguaisC2 > 1:
-            #02 pares
+            # 02 pares
             if (iguaisC1 == 2 and iguaisC2 == 2):
-                    return 3
-            #Full house
+                # verfica maior carta
+                return 3
+            #02 trincas
+            elif iguaisC1 == 3 and iguaisC2 == 3:
+                # verfica maior carta
+                return 4
+            # Full house
             elif (iguaisC1 == 3 and iguaisC2 == 2) or (iguaisC1 == 2 and iguaisC2 == 3):
                 return 7
         else:
-            #Par
+            # Par
             if iguaisC1 == 2 or iguaisC2 == 2:
-                #verfica maior carta
+
                 return 2
-            #Trinca
+            # Trinca
             elif iguaisC1 == 3 or iguaisC2 == 3:
-            # verfica maior carta
+                # verfica maior carta
                 return 4
-            #Quadra
+            # Quadra
             elif iguaisC1 == 4 or iguaisC2 == 4:
                 # verfica maior carta
                 return 8
             # Sem cartas iguais
             else:
                 return 0
-
 
 
 while True:
