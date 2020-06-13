@@ -56,7 +56,7 @@ Jc 9p
 Kc 2o 2c Ac
 t
 '''
-sequencia = (["2", 2],["3", 3],["4", 4],["5", 5],["6", 6],["7", 7],["8", 8],["9", 9],["T", 10],["J", 11],["Q", 12],["K", 13],["A", 100])
+sequencia = (["2", 2],["3", 3],["4", 4],["5", 5],["6", 6],["7", 7],["8", 8],["9", 9],["T", 10],["J", 11],["Q", 12],["K", 13],["A", 14])
 
 
 
@@ -85,8 +85,31 @@ def verificaFlush():
 def verificaStraight():
     return
 
+def ordenaCartas(player, mesa):
+    #Ordem de agordo com sequencia
 
-def verificaStraightFLush():
+    
+    return
+
+
+def verificaStraighteFLush(player, mesa):
+    #Ordena player+mesa
+
+    #Verifica Flush
+    #Se flush
+        #Verifica Straight
+            #Se Straight
+                #StraightFlush
+            #Apenas Flush
+    #Verifica Straight
+        #Se sim
+            #Straight
+        #Senao
+            #0
+
+
+
+
     return
 
 
@@ -169,6 +192,7 @@ while True:
         player1 = input().split(' ')
         player2 = input().split(' ')
         mesa = input().split(' ')
+        #carta =
         print(player1, player2, mesa)
         carta = list(player2[0])
         naipe = list(player2[1])
