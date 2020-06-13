@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="25458e47-9a17-4cc9-b193-7d6fc037ba2b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2114.py" beforeDir="false" afterPath="$PROJECT_DIR$/2114.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OO.py" beforeDir="false" afterPath="$PROJECT_DIR$/OO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste_ini_udemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/teste_ini_udemy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,30 +206,30 @@
       <screen x="0" y="0" width="1326" height="706" />
     </state>
     <state x="444" y="111" key="FileChooserDialogImpl/0.0.1326.706@0.0.1326.706" timestamp="1591900173457" />
-    <state width="487" height="224" key="GridCell.Tab.0.bottom" timestamp="1591911591697">
+    <state width="274" height="226" key="GridCell.Tab.0.bottom" timestamp="1592053440789">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
     <state width="487" height="224" key="GridCell.Tab.0.bottom/0.0.1326.706/1920.0.1326.706@0.0.1326.706" timestamp="1591911591697" />
     <state width="488" height="298" key="GridCell.Tab.0.bottom/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584813235335" />
-    <state width="391" height="224" key="GridCell.Tab.0.bottom/0.0.1326.706@0.0.1326.706" timestamp="1591902605682" />
-    <state width="487" height="224" key="GridCell.Tab.0.center" timestamp="1591911591697">
+    <state width="274" height="226" key="GridCell.Tab.0.bottom/0.0.1326.706@0.0.1326.706" timestamp="1592053440789" />
+    <state width="274" height="226" key="GridCell.Tab.0.center" timestamp="1592053440789">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
     <state width="487" height="224" key="GridCell.Tab.0.center/0.0.1326.706/1920.0.1326.706@0.0.1326.706" timestamp="1591911591697" />
     <state width="488" height="298" key="GridCell.Tab.0.center/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584813235335" />
-    <state width="391" height="224" key="GridCell.Tab.0.center/0.0.1326.706@0.0.1326.706" timestamp="1591902605682" />
-    <state width="487" height="224" key="GridCell.Tab.0.left" timestamp="1591911591697">
+    <state width="274" height="226" key="GridCell.Tab.0.center/0.0.1326.706@0.0.1326.706" timestamp="1592053440789" />
+    <state width="274" height="226" key="GridCell.Tab.0.left" timestamp="1592053440789">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
     <state width="487" height="224" key="GridCell.Tab.0.left/0.0.1326.706/1920.0.1326.706@0.0.1326.706" timestamp="1591911591697" />
     <state width="488" height="298" key="GridCell.Tab.0.left/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584813235334" />
-    <state width="391" height="224" key="GridCell.Tab.0.left/0.0.1326.706@0.0.1326.706" timestamp="1591902605682" />
-    <state width="487" height="224" key="GridCell.Tab.0.right" timestamp="1591911591697">
+    <state width="274" height="226" key="GridCell.Tab.0.left/0.0.1326.706@0.0.1326.706" timestamp="1592053440789" />
+    <state width="274" height="226" key="GridCell.Tab.0.right" timestamp="1592053440789">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
     <state width="487" height="224" key="GridCell.Tab.0.right/0.0.1326.706/1920.0.1326.706@0.0.1326.706" timestamp="1591911591697" />
     <state width="488" height="298" key="GridCell.Tab.0.right/0.0.1326.706/1920.0.2652.1452@0.0.1326.706" timestamp="1584813235335" />
-    <state width="391" height="224" key="GridCell.Tab.0.right/0.0.1326.706@0.0.1326.706" timestamp="1591902605682" />
+    <state width="274" height="226" key="GridCell.Tab.0.right/0.0.1326.706@0.0.1326.706" timestamp="1592053440789" />
     <state x="461" y="67" key="RollbackChangesDialog" timestamp="1585146757615">
       <screen x="0" y="0" width="1326" height="706" />
     </state>
