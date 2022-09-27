@@ -5,7 +5,7 @@ N =  int(input())
 for x in range(N):
     entrada = int(input())
     pares.append(entrada) if (entrada % 2 == 0) else impares.append(entrada)
-
+#ordenacao
 pares.sort()
 impares.sort(reverse=True)
 
