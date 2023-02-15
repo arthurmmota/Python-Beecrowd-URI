@@ -113,7 +113,7 @@ def verificaStraighteFLush(player, mesa):
     return
 
 
-def verificaIgauis(player, mesa):
+def verificaIguais(player, mesa):
     iguais = 1
     iguaisC1 = 1
     iguaisC2 = 1
@@ -127,6 +127,8 @@ def verificaIgauis(player, mesa):
     if carta1[0] == carta2[0]:
         iguais += 1
         # compara par com a mesa
+        #mesa.count(carta1[0])
+
         for mc in range(0, len(mesa)):
             cartaM = list(mesa[mc])
             if carta1[0] == cartaM[0]:
@@ -156,6 +158,7 @@ def verificaIgauis(player, mesa):
             cartaM = list(mesa[mc])
             if carta1[1] == cartaM[0]:
                 iguaisC2 += 1
+
         # Full house, 02 pares 02 trincas
         if iguaisC1 > 1 and iguaisC2 > 1:
             # 02 pares
@@ -193,10 +196,19 @@ while True:
         player2 = input().split(' ')
         mesa = input().split(' ')
         #carta =
+        mesa2 = []
         print(player1, player2, mesa)
+        for item in mesa:
+            mesa2.append(item.split())
+        print(mesa2)
         carta = list(player2[0])
         naipe = list(player2[1])
-        print(verificaIgauis(player1, mesa))
+
+        #print(verificaMaiorCarta('T','A'))
+
+        print(verificaIguais(player1, mesa))
+
+
         # print(carta[0])
     except EOFError:
         break
